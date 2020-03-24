@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+.bio{border: solid;
+    font-size: 20px;
+    background: white;
+    float: right;
+}
+body{font-family: 'Roboto', sans-serif;
+    background-color: springgreen;
+}
+@media screen and (max-width:800px){
+    .leftcolumn,rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
